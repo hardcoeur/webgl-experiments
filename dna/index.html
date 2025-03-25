@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Renderer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.162.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.162.0/examples/jsm/",
+                "three/addons/controls/OrbitControls.js": "https://unpkg.com/three@0.162.0/examples/jsm/controls/OrbitControls.js",
+                "three/addons/loaders/OBJLoader.js": "https://unpkg.com/three@0.162.0/examples/jsm/loaders/OBJLoader.js",
+                "three/addons/loaders/MTLLoader.js": "https://unpkg.com/three@0.162.0/examples/jsm/loaders/MTLLoader.js",
+                "three/addons/postprocessing/EffectComposer.js": "https://unpkg.com/three@0.162.0/examples/jsm/postprocessing/EffectComposer.js",
+                "three/addons/postprocessing/RenderPass.js": "https://unpkg.com/three@0.162.0/examples/jsm/postprocessing/RenderPass.js",
+                "three/addons/postprocessing/ShaderPass.js": "https://unpkg.com/three@0.162.0/examples/jsm/postprocessing/ShaderPass.js"
+            }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
